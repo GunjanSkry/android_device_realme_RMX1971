@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_qssi.mk
+     $(LOCAL_DIR)/twrp_RMX1971.mk

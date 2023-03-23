@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/qualcomm/qssi
+DEVICE_PATH := device/realme/RMX1971
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,7 +37,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := qssi
+TARGET_OTA_ASSERT_DEVICE := RMX1971
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -66,8 +66,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/qualcomm/qssi
-TARGET_KERNEL_CONFIG := qssi_defconfig
+TARGET_KERNEL_SOURCE := kernel/realme/RMX1971
+TARGET_KERNEL_CONFIG := RMX1971_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := default

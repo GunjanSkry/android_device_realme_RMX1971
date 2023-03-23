@@ -23,19 +23,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from qssi device
-$(call inherit-product, device/qualcomm/qssi/device.mk)
+$(call inherit-product, device/realme/RMX1971/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := qssi
-PRODUCT_NAME := omni_qssi
-PRODUCT_BRAND := qti
-PRODUCT_MODEL := qti
-PRODUCT_MANUFACTURER := qualcomm
-PRODUCT_RELEASE_NAME := qti qti
+PRODUCT_DEVICE := RMX1971
+PRODUCT_NAME := twrp_RMX1971
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := Realme 5 pro
+PRODUCT_MANUFACTURER := realme
+PRODUCT_RELEASE_NAME := Realme 5 pro
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=RMX1971 \

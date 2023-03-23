@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/qualcomm/qssi
+LOCAL_PATH := device/realme/RMX1971
 
